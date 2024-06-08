@@ -1,0 +1,66 @@
+.CHESS tr:nth-child(2n+4) td:nth-child(2n+4) {
+	background:white;
+}	
+.CHESS tr:nth-child(2n+3) td:nth-child(2n+3) {
+    background:black;
+}
+.CHESS tr:nth-child(2n+5) td:nth-child(2n+5) {
+	background:white;
+}	
+.CHESS tr:nth-child(2n+2) td:nth-child(2n+2) {
+    background:black;
+}
+.CHESS tr:nth-child(2n+5) td:nth-child(2n+5) {
+	background:white;
+}	
+.CHESS tr:nth-child(2n+7) td:nth-child(2n+7) {
+    background:black;
+}
+.CHESS tr:nth-child(2n+8) td:nth-child(2n+8) {
+        background:white;
+    }	
+    .CHESS tr:nth-child(2n+6) td:nth-child(2n+6) {
+        background:black;
+    }
+    	
+    .CHESS tr:nth-child(2n+5) td:nth-child(2n+5) {
+        background:black;
+    }
+    .CHESS tr:nth-child(10) td:nth-child(2n+2) {
+        background:green;
+        width:5px;
+        height:25px;
+       
+    }
+    .CHESS tr:nth-child(2n+2) td:nth-child(10) {
+        background:green;
+        width:3px;
+        height:15px;
+        
+    }
+tr:nth-child(10){
+        background-color:green;
+        
+        }
+        tr:nth-child(1){
+            background-color:green;
+            
+            }
+            td:nth-child(1){
+                background-color:green;
+            }
+                td:nth-child(10){
+                    background-color:green;
+                    
+                    }
+                    
+table.CHESS td:first-child{
+    width:14px;
+}
+table.CHESS td:last-child{
+  width:14px;
+}
+.CHESS tr:first-of-type td,
+.CHESS tr:last-of-type td{
+    height:14px;
+}

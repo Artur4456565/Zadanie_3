@@ -1,0 +1,19 @@
+div.strs {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+}
+
+div.str {
+  display: grid;
+  place-items: center;
+  cursor: pointer;
+  color:orangered;
+}
+
+div.str::before { font: 75px/1em sans-serif; }
+
+div.str::before { content: '\2606'; }
+
+div.str:hover ~ div.str::before,
+div.str:hover::before { content: '\2605'; }
